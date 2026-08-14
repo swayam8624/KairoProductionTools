@@ -1,0 +1,35 @@
+{
+  "schema": "kairo.portfolio.v1",
+  "candidate": "Swayam Singal",
+  "specialisation": "Technical Direction",
+  "projects": [
+    {
+      "name": "Blender to Kairo Asset Pipeline",
+      "repository": "https://github.com/swayam8624/KairoBlender",
+      "languages": ["Python", "C++23"],
+      "status": "native-verified",
+      "artist_outcome": "Validate, navigate, safely fix, dry-run, and publish a glTF asset from one Blender panel."
+    },
+    {
+      "name": "Houdini CacheGuard",
+      "repository": "https://github.com/swayam8624/KairoHoudini",
+      "languages": ["Python"],
+      "status": "host-neutral-verified",
+      "artist_outcome": "Find resumable missing frames, stale upstream state, and storage risk before expensive cache work."
+    },
+    {
+      "name": "Nuke ShotDoctor",
+      "repository": "https://github.com/swayam8624/KairoNuke",
+      "languages": ["Python"],
+      "status": "host-neutral-verified",
+      "artist_outcome": "Preflight Read and Write nodes and reject mutated cross-DCC publishes before ingest."
+    },
+    {
+      "name": "Maya SceneDoctor",
+      "repository": "https://github.com/swayam8624/KairoMaya",
+      "languages": ["Python"],
+      "status": "host-neutral-verified",
+      "artist_outcome": "Navigate scene, reference, topology, UV, texture, and project-profile failures from a dockable panel."
+    }
+  ]
+}

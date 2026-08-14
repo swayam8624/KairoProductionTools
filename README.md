@@ -29,6 +29,15 @@ is generated from versioned project evidence and capped below the required ten
 pages. Native host status is reported honestly in the
 [verification matrix](docs/NATIVE_VERIFICATION.md).
 
+Rebuild and inspect the PDF with:
+
+```bash
+python3 -m pip install -r requirements-portfolio.txt
+python3 scripts/build_portfolio.py
+pdftoppm -png output/pdf/Swayam_Singal_UTS_Technical_Direction_Portfolio.pdf \
+  tmp/pdfs/portfolio
+```
+
 ## Design principles
 
 - artist-facing diagnostics carry stable codes, severity, suggestions, and

@@ -22,3 +22,18 @@ Houdini, Maya, Blender and Nuke connect to KairoPipelineCore's verified manifest
 - Follow upstream interfaces before implementation details; distinguish implemented, host-verified and planned features.
 - Run available tests at a pinned commit and consult [STATUS.md](../STATUS.md) / [STATUS.yaml](../STATUS.yaml) before declaring completion.
 - Reuse original contributions under [LICENSE](../LICENSE), subject to third-party code and asset terms.
+
+
+## Complete source-file inventory
+
+After the curated teaching path, follow this deterministic inventory of first-party source, scripts, shaders, and tests. Grouping is a suggested learning order, not an indication that every function is already annotated. Vendored dependencies, ROMs, binaries, data, media, and generated evidence are excluded.
+
+### Automation and tooling (1)
+
+1. [`scripts/build_portfolio.py`](../scripts/build_portfolio.py)
+
+### Verification and tests (1)
+
+1. [`tests/test_portfolio_contract.py`](../tests/test_portfolio_contract.py)
+
+Snapshot totals: 2 first-party source/build/test files, 18 tracked files overall. Re-audit when files are renamed or added.

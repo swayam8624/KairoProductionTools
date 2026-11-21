@@ -1,3 +1,8 @@
+# TEACHING MAP — tests/test_portfolio_contract.py
+# Checks generated report structure, size and source-evidence references. It cannot
+# independently certify Blender/Houdini/Maya/Nuke host execution.
+# Consult READING_ORDER.md for related host APIs, validation and tests.
+
 import json
 from pathlib import Path
 import unittest

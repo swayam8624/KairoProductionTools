@@ -1,5 +1,7 @@
 # Kairo Production Tools
 
+> **Learn from source:** [Source teaching guide](docs/SOURCE_READING_ORDER.md) links the five production-pipeline repositories, portfolio evidence data, report-generation source, and verifiable test/documentation contracts. Existing project [LICENSE](LICENSE) is preserved; third-party DCC packages and assets retain their own terms.
+
 An open-source, multi-DCC asset pipeline portfolio built around one production
 contract: diagnose artist work early, publish immutable content with provenance,
 and verify it again at every downstream boundary.

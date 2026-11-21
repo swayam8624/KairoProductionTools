@@ -1,3 +1,8 @@
+# SOURCE STUDY NOTE:
+# Evidence contract tests for portfolio/projects.json and documentation completeness; a passing test
+# verifies metadata structure, not native DCC app execution.
+# See docs/SOURCE_READING_ORDER.md for per-DCC source links.
+
 import json
 from pathlib import Path
 import unittest

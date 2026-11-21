@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+# SOURCE STUDY NOTE:
+# ReportLab PDF presentation builder consuming portfolio project evidence and optional local images.
+# This is publication tooling, not the KairoPipelineCore asset publisher; avoid regenerating published
+# PDF on a docs-only pass.
+# See docs/SOURCE_READING_ORDER.md for per-DCC source links.
+
 """Generate the versioned UTS Technical Direction portfolio PDF."""
 
 from __future__ import annotations

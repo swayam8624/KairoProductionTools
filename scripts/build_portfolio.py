@@ -1,3 +1,9 @@
+# TEACHING MAP — scripts/build_portfolio.py
+# Generates the technical direction/production portfolio from declared, inspectable
+# evidence across DCC bridges. Treat project artifacts as input, not as proof that native
+# applications ran unless their native verification records exist.
+# Consult READING_ORDER.md for related host APIs, validation and tests.
+
 #!/usr/bin/env python3
 # TEACHING MODULE: This script turns already-collected source descriptions
 # and images into a deterministic editorial PDF portfolio. It is not a

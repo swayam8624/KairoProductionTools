@@ -1,5 +1,5 @@
-# TEACHING MAP: Portfolio evidence builder assembles generated reports from recorded source material; it does not independently certify native Blender/Maya/Houdini/Nuke execution. Trace input sources, artifacts and verification status.
 #!/usr/bin/env python3
+# TEACHING MAP: Portfolio evidence builder assembles generated reports from recorded source material; it does not independently certify native Blender/Maya/Houdini/Nuke execution. Trace input sources, artifacts and verification status.
 """Generate the versioned UTS Technical Direction portfolio PDF."""
 
 from __future__ import annotations

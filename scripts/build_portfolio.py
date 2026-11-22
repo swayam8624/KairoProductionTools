@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
-# TEACHING MAP: Portfolio evidence builder assembles generated reports from recorded source material; it does not independently certify native Blender/Maya/Houdini/Nuke execution. Trace input sources, artifacts and verification status.
+# TEACHING MODULE: This script turns already-collected source descriptions
+# and images into a deterministic editorial PDF portfolio. It is not a
+# Houdini/Maya/Blender/Nuke integration test or source of native-runtime
+# certification. Gallery screenshots should preserve the original scene,
+# export command, software version and license provenance.
+#
+# ReportLab Canvas is used directly: draw_cover/draw_architecture/other
+# section functions lay out fixed A4 pages, and build controls output.
+# Missing inputs and claims without evidence must remain visible; do not
+# treat successful PDF rendering as proof that a DCC workflow passed.
 """Generate the versioned UTS Technical Direction portfolio PDF."""
 
 from __future__ import annotations
@@ -469,6 +478,9 @@ def draw_closing(c: Canvas) -> None:
     c.showPage()
 
 
+# Compose each portfolio page and write the artifact as a final report.
+# The output belongs to this report builder; input source repos and their
+# native verification status remain independent.
 def build() -> None:
     if not BLENDER_IMAGE.is_file():
         raise FileNotFoundError(f"Blender visual evidence is missing: {BLENDER_IMAGE}")

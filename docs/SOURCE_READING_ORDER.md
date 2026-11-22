@@ -1,4 +1,5 @@
 # Teaching source map — KairoProductionTools
+**Worked source walkthrough:** [Source evidence → portfolio generation → licensing checks](PORTFOLIO_EVIDENCE_CHAIN.md).
 
 Multi-DCC workflow and verifiable publication packaging, not an engine runtime.
 

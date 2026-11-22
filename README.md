@@ -1,5 +1,7 @@
 # Kairo Production Tools
 
+**Study the implementation:** [linked file-reading order](docs/SOURCE_READING_ORDER.md) · [Portfolio source claims, output and verification](docs/PORTFOLIO_EVIDENCE_CHAIN.md).
+
 An open-source, multi-DCC asset pipeline portfolio built around one production
 contract: diagnose artist work early, publish immutable content with provenance,
 and verify it again at every downstream boundary.
